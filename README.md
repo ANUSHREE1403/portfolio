@@ -31,4 +31,6 @@ This site is ready to be deployed on GitHub Pages, Netlify, Vercel, or any stati
 
 ---
 
+## Credits
+This portfolio was originally based on the Hudson template by [StyleShout](https://styleshout.com/), and has been extensively customized by Anushree. 
 Feel free to fork, customize, or use this portfolio as inspiration for your own!
