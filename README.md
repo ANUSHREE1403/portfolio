@@ -1,6 +1,6 @@
 # Anushree Portfolio
 
-This is the personal portfolio website of Anushree, a Data Science major and Machine Learning enthusiast. The site showcases projects, skills, certifications, and contact information.
+This is my personal portfolio website , I'm a Data Science major and Machine Learning enthusiast. The site showcases projects, skills, certifications, and contact information.
 
 ## Features
 - Professional introduction and profile
@@ -32,5 +32,5 @@ This site is ready to be deployed on GitHub Pages, Netlify, Vercel, or any stati
 ---
 
 ## Credits
-This portfolio was originally based on the Hudson template by [StyleShout](https://styleshout.com/), and has been extensively customized by Anushree. 
-Feel free to fork, customize, or use this portfolio as inspiration for your own!
+This portfolio was originally based on the Hudson template by [StyleShout](https://styleshout.com/), and has been extensively customized by me. 
+Feel free to fork, customize, or use this portfolio as inspiration for your own !
