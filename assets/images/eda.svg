@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <g>
+    <rect x="120" y="520" width="60" height="180" fill="#0ea5b7"/>
+    <rect x="220" y="420" width="60" height="280" fill="#22d3ee"/>
+    <rect x="320" y="480" width="60" height="220" fill="#38bdf8"/>
+    <rect x="420" y="360" width="60" height="340" fill="#0ea5b7"/>
+    <rect x="520" y="300" width="60" height="400" fill="#22d3ee"/>
+    <rect x="620" y="380" width="60" height="320" fill="#38bdf8"/>
+  </g>
+  <text x="120" y="120" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="38">Exploratory Data Analysis</text>
+</svg>

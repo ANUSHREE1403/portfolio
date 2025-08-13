@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <polygon points="200,520 460,320 720,520" fill="#0ea5b7" opacity=".6"/>
+  <rect x="260" y="460" width="120" height="140" fill="#22d3ee"/>
+  <rect x="540" y="500" width="80" height="100" fill="#38bdf8"/>
+  <text x="80" y="120" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="40">House Price Prediction</text>
+</svg>

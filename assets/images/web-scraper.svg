@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <circle cx="600" cy="340" r="200" stroke="#22d3ee" stroke-width="10" fill="none"/>
+  <path d="M400 340h400M600 140v400" stroke="#22d3ee" stroke-width="10"/>
+  <text x="420" y="620" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="32">Web Scraper</text>
+</svg>

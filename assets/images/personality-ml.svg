@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <circle cx="380" cy="420" r="140" stroke="#22d3ee" stroke-width="10" fill="none"/>
+  <circle cx="820" cy="420" r="140" stroke="#0ea5b7" stroke-width="10" fill="none"/>
+  <text x="300" y="420" fill="#9cc7d6" font-family="Rajdhani, sans-serif" font-size="26">Introvert</text>
+  <text x="760" y="420" fill="#9cc7d6" font-family="Rajdhani, sans-serif" font-size="26">Extrovert</text>
+  <text x="120" y="120" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="38">Personality Prediction</text>
+</svg>

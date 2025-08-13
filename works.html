@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Works | Anushree's Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <canvas id="stars-canvas" aria-hidden="true"></canvas>
+    <div class="warp-overlay" aria-hidden="true"></div>
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html" style="font-size: 2rem; font-weight: bold; text-decoration: none; color: inherit;">
+                            Anushree's Portfolio
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li><a href="index.html" data-warp>Intro</a></li>
+                        <li><a href="about.html" data-warp>About</a></li>
+                        <li class="current"><a href="works.html" data-warp>Works</a></li>
+                        <li><a href="contact.html" data-warp>Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works target-section" style="min-height: 100vh; padding: 100px 0;">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">Project Archives.</h2>
+                        <p style="text-align: center; color: var(--muted); font-family: 'Orbitron', sans-serif; letter-spacing: 1px; margin-top: 20px;">
+                            CLICK ANY PROJECT TO INITIATE GLITCH PROTOCOL
+                        </p>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/YES-Bank-Stock-Closing-Price-Prediction" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/yesbank-stock.svg" alt="YES Bank Stock Prediction" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">YES Bank Stock Prediction</h4>
+                            <div class="entry__cat">Financial ML</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/Summy-the-summerizer" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/summy.svg" alt="Summy - The Summarizer">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Summy - The Summarizer</h4>
+                            <div class="entry__cat">NLP Project</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/House-Price-Prediction" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/house-price.svg" alt="House Price Prediction" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">House Price Prediction</h4>
+                            <div class="entry__cat">Regression ML</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/Brain-Tumor-MRI-Image-Classifier-" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/brain-tumor.svg" alt="Brain Tumor MRI Classifier" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Brain Tumor MRI Classifier</h4>
+                            <div class="entry__cat">Deep Learning</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/PhonePe-Transaction-Insights" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/phonepe.svg" alt="PhonePe Transaction Insights" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">PhonePe Transaction Insights</h4>
+                            <div class="entry__cat">Data Analytics</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/auto-genie-final" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/auto-genie.svg" alt="Auto Genie" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Auto Genie</h4>
+                            <div class="entry__cat">Automation</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/WebScrapper-for-Email-LinkedIn" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/webscrapper.svg" alt="Web Scrapper" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Web Scrapper</h4>
+                            <div class="entry__cat">Data Mining</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/YesBank-ml-capstone" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/yesbank-capstone.svg" alt="YesBank ML Capstone" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">YesBank ML Capstone</h4>
+                            <div class="entry__cat">Capstone Project</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column entry">
+                    <a href="https://github.com/ANUSHREE1403/MPIN-Checker" class="entry__link project-link" target="_blank">
+                        <div class="entry__thumb">
+                            <img src="assets/images/mpin-checker.svg" alt="MPIN Checker" loading="lazy">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">MPIN Checker</h4>
+                            <div class="entry__cat">Security Tool</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div> <!-- folio-entries -->
+
+            <!-- stats section -->
+            <div style="margin-top: 80px; text-align: center;">
+                <div class="row counter-items" style="justify-content: center;">
+                    <div class="column counter-items__item">
+                        <div class="num">40+</div>
+                        <h5>Projects Completed</h5>
+                    </div>
+                    <div class="column counter-items__item">
+                        <div class="num">50k+</div>
+                        <h5>Lines of Code</h5>
+                    </div>
+                    <div class="column counter-items__item">
+                        <div class="num">15+</div>
+                        <h5>Technologies Mastered</h5>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!-- end s-works -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/warp.js"></script>
+
+</body>
+</html>

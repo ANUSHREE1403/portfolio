@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <path d="M160 600h880" stroke="#113244" stroke-width="6"/>
+  <rect x="220" y="520" width="120" height="80" fill="#0ea5b7"/>
+  <rect x="380" y="460" width="120" height="140" fill="#22d3ee"/>
+  <rect x="540" y="380" width="120" height="220" fill="#38bdf8"/>
+  <rect x="700" y="320" width="120" height="280" fill="#22d3ee"/>
+  <rect x="860" y="420" width="120" height="180" fill="#0ea5b7"/>
+  <text x="80" y="120" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="36">PhonePe Transaction Insights</text>
+</svg>

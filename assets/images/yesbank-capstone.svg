@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <polyline points="120,620 280,520 360,560 500,420 640,480 760,360 940,300 1080,360" stroke="#22d3ee" stroke-width="10" fill="none"/>
+  <text x="80" y="120" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="38">YES Bank ML Capstone</text>
+</svg>

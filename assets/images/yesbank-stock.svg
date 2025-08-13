@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5b7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <g opacity=".2">
+    <circle cx="150" cy="120" r="2" fill="#e5f9ff"/>
+    <circle cx="400" cy="300" r="2" fill="#e5f9ff"/>
+    <circle cx="980" cy="200" r="2" fill="#e5f9ff"/>
+    <circle cx="700" cy="640" r="2" fill="#e5f9ff"/>
+  </g>
+  <polyline points="50,650 200,560 260,620 360,520 520,540 640,420 760,460 900,300 1120,360" stroke="url(#g1)" stroke-width="10" fill="none"/>
+  <text x="60" y="90" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="28">Stock Forecast</text>
+</svg>

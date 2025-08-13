@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About | Anushree's Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <canvas id="stars-canvas" aria-hidden="true"></canvas>
+    <div class="warp-overlay" aria-hidden="true"></div>
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html" style="font-size: 2rem; font-weight: bold; text-decoration: none; color: inherit;">
+                            Anushree's Portfolio
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li><a href="index.html" data-warp>Intro</a></li>
+                        <li class="current"><a href="about.html" data-warp>About</a></li>
+                        <li><a href="works.html" data-warp>Works</a></li>
+                        <li><a href="contact.html" data-warp>Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section" style="min-height: 100vh; display: flex; align-items: center; padding: 100px 0;">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">System Profile.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-about__content">
+                <div class="column xl-6 md-12 s-about__content-inner">
+                    
+                    <div class="s-about__content-intro">
+                        <h3 class="s-about__content-title text-display-1" style="font-family: 'Orbitron', sans-serif; color: var(--accent); margin-bottom: 20px;">
+                            Signal Analysis Complete
+                        </h3>
+                        <p class="attention-getter" style="font-size: 18px; line-height: 1.6; color: var(--text); margin-bottom: 30px;">
+                            Advanced AI research intern with primary focus on machine learning algorithms and data science protocols. 
+                            System operates at optimal efficiency in Python-based environments with specialized expertise in 
+                            neural network architecture and statistical analysis frameworks.
+                        </p>
+                        <p style="color: var(--muted); line-height: 1.7;">
+                            Currently deployed in AI research division, continuously processing complex datasets and implementing 
+                            cutting-edge ML solutions. Core programming includes supervised/unsupervised learning, deep learning 
+                            implementations, and real-time data visualization systems.
+                        </p>
+                    </div>
+
+                    <div class="s-about__content-btn">
+                        <a href="assets/resume/ResumeAnushree.pdf" download class="btn btn--stroke btn--large u-fullwidth" style="margin-top: 30px;">
+                            Download System Specs
+                        </a>
+                    </div>
+
+                </div> <!-- s-about__content-inner -->
+
+                <div class="column xl-6 md-12">
+                    <div class="s-about__content-blocks">
+
+                        <div class="s-about__content-block">
+                            <h4 class="s-about__block-title" style="font-family: 'Orbitron', sans-serif; color: var(--accent);">
+                                Core Technologies
+                            </h4>
+                            <ul class="s-about__list">
+                                <li><strong>Programming Languages:</strong> Python, Java, C, SQL, JavaScript</li>
+                                <li><strong>ML/AI Frameworks:</strong> scikit-learn, TensorFlow, PyTorch, pandas, NumPy</li>
+                                <li><strong>Data Visualization:</strong> Matplotlib, Seaborn, Streamlit, Power BI</li>
+                                <li><strong>Web Technologies:</strong> HTML, CSS, React.js, MongoDB, Oracle APEX</li>
+                                <li><strong>Development Tools:</strong> Git, GitHub, Jupyter, VS Code, Google Colab</li>
+                            </ul>
+                        </div> <!--end s-about__content-block -->
+
+                        <div class="s-about__content-block">
+                            <h4 class="s-about__block-title" style="font-family: 'Orbitron', sans-serif; color: var(--accent);">
+                                Mission Objectives
+                            </h4>
+                            <ul class="s-about__list">
+                                <li>Develop intelligent systems that solve real-world challenges</li>
+                                <li>Optimize machine learning algorithms for maximum efficiency</li>
+                                <li>Create data-driven solutions with measurable impact</li>
+                                <li>Advance AI research through innovative implementations</li>
+                                <li>Bridge the gap between theoretical AI and practical applications</li>
+                            </ul>
+                        </div> <!--end s-about__content-block -->
+
+                    </div> <!-- grid-list-items -->
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->
+
+        <!-- # certifications
+        ================================================== -->
+        <section id="certifications" class="s-numbers target-section" style="padding: 80px 0; background: rgba(18,24,37,0.5);">
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Certifications.</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row counter-items" style="justify-content: center; max-width: 800px; margin: 0 auto;">
+                <div class="column counter-items__item" style="text-align: center; margin: 20px;">
+                    <div class="num" style="font-size: 24px; margin-bottom: 10px;">AI</div>
+                    <h5 style="color: var(--text); margin-bottom: 15px;">IBM Certification in AI</h5>
+                    <a href="assets/certificates/ibm-ai-cert.pdf" class="btn btn--stroke" target="_blank">
+                        View Certificate
+                    </a>
+                </div>
+
+                <div class="column counter-items__item" style="text-align: center; margin: 20px;">
+                    <div class="num" style="font-size: 24px; margin-bottom: 10px;">Data</div>
+                    <h5 style="color: var(--text); margin-bottom: 15px;">Data Engineering Certification</h5>
+                    <a href="assets/certificates/data-engineering-cert.pdf" class="btn btn--stroke" target="_blank">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </section> <!-- end certifications -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/warp.js"></script>
+
+</body>
+</html>

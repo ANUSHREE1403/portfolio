@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <path d="M160 560h880" stroke="#22d3ee" stroke-width="8"/>
+  <rect x="220" y="360" width="160" height="200" fill="#0ea5b7"/>
+  <rect x="420" y="300" width="160" height="260" fill="#22d3ee"/>
+  <rect x="620" y="380" width="160" height="180" fill="#38bdf8"/>
+  <rect x="820" y="240" width="160" height="320" fill="#22d3ee"/>
+  <text x="80" y="120" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="38">Auto‑Genie</text>
+</svg>

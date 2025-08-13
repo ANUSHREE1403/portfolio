@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Anushree's Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <canvas id="stars-canvas" aria-hidden="true"></canvas>
+    <div class="warp-overlay" aria-hidden="true"></div>
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html" style="font-size: 2rem; font-weight: bold; text-decoration: none; color: inherit;">
+                            Anushree's Portfolio
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li><a href="index.html" data-warp>Intro</a></li>
+                        <li><a href="about.html" data-warp>About</a></li>
+                        <li><a href="works.html" data-warp>Works</a></li>
+                        <li class="current"><a href="contact.html" data-warp>Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+        <!-- # contact
+        ================================================== -->
+        <section id="contact" class="s-contact target-section" style="min-height: 100vh; display: flex; align-items: center; padding: 100px 0;">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">Initiate Contact Protocol.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row contact-content" style="align-items: center; justify-content: center; text-align: center;">
+
+                <div class="column xl-8 lg-12">
+                    
+                    <div class="contact-intro" style="margin-bottom: 60px;">
+                        <h3 style="font-family: 'Orbitron', sans-serif; color: var(--accent); font-size: 28px; margin-bottom: 20px; letter-spacing: 2px;">
+                            ESTABLISHING CONNECTION
+                        </h3>
+                        <p style="color: var(--text); font-size: 18px; line-height: 1.6; max-width: 600px; margin: 0 auto;">
+                            Ready to collaborate on cutting-edge AI projects or discuss innovative machine learning solutions? 
+                            Multiple communication channels are active and monitoring for incoming transmissions.
+                        </p>
+                    </div>
+
+                    <!-- Contact Methods -->
+                    <div class="contact-methods" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 60px;">
+                        
+                        <div class="contact-method" style="background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 30px; box-shadow: var(--shadow);">
+                            <div style="font-size: 32px; margin-bottom: 15px;">📧</div>
+                            <h4 style="font-family: 'Orbitron', sans-serif; color: var(--accent); margin-bottom: 10px;">Primary Channel</h4>
+                            <p style="color: var(--muted); margin-bottom: 15px;">Direct encrypted communication</p>
+                            <a href="mailto:workanushree14@gmail.com" style="color: var(--text); text-decoration: none; font-weight: 500;">
+                                workanushree14@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="contact-method" style="background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 30px; box-shadow: var(--shadow);">
+                            <div style="font-size: 32px; margin-bottom: 15px;">📧</div>
+                            <h4 style="font-family: 'Orbitron', sans-serif; color: var(--accent); margin-bottom: 10px;">Secondary Channel</h4>
+                            <p style="color: var(--muted); margin-bottom: 15px;">Alternative communication route</p>
+                            <a href="mailto:01.anu.shree.14@gmail.com" style="color: var(--text); text-decoration: none; font-weight: 500;">
+                                01.anu.shree.14@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="contact-method" style="background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 30px; box-shadow: var(--shadow);">
+                            <div style="font-size: 32px; margin-bottom: 15px;">📱</div>
+                            <h4 style="font-family: 'Orbitron', sans-serif; color: var(--accent); margin-bottom: 10px;">Voice Protocol</h4>
+                            <p style="color: var(--muted); margin-bottom: 15px;">Real-time communication enabled</p>
+                            <a href="tel:+918787275505" style="color: var(--text); text-decoration: none; font-weight: 500;">
+                                +91 87872 75505
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Social Networks -->
+                    <div class="social-networks" style="margin-bottom: 60px;">
+                        <h4 style="font-family: 'Orbitron', sans-serif; color: var(--accent); margin-bottom: 30px; font-size: 20px; letter-spacing: 1px;">
+                            NETWORK CONNECTIONS
+                        </h4>
+                        <div class="rocket-links" style="justify-content: center; gap: 20px;">
+                            <a class="rocket-btn" data-rocket href="https://www.linkedin.com/in/anushree14" target="_blank" aria-label="LinkedIn">
+                                <span class="label">LinkedIn</span>
+                            </a>
+                            <a class="rocket-btn" data-rocket href="https://github.com/ANUSHREE1403" target="_blank" aria-label="GitHub">
+                                <span class="label">GitHub</span>
+                            </a>
+                            <a class="rocket-btn" data-rocket href="https://leetcode.com/u/Anushree_14/" target="_blank" aria-label="LeetCode">
+                                <span class="label">LeetCode</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div style="text-align: center; margin-top: 40px;">
+                        <div style="display: inline-flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                            <a href="mailto:workanushree14@gmail.com" class="btn btn--primary btn--large" style="width: 280px; text-align: center;">
+                                Send Transmission
+                            </a>
+                            <a href="assets/resume/ResumeAnushree.pdf" download class="btn btn--stroke btn--large" style="width: 280px; text-align: center;">
+                                Download System Specs
+                            </a>
+                        </div>
+                    </div>
+
+                </div> <!-- end contact content -->
+
+            </div> <!-- end row -->
+
+            <!-- Status Indicator -->
+            <div style="position: fixed; bottom: 30px; right: 30px; background: var(--card); border: 1px solid var(--border); border-radius: 50px; padding: 10px 20px; box-shadow: var(--shadow);">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <div style="width: 8px; height: 8px; background: #00ff00; border-radius: 50%; animation: pulse 2s infinite;"></div>
+                    <span style="font-family: 'Orbitron', sans-serif; font-size: 12px; color: var(--text); letter-spacing: 1px;">ONLINE</span>
+                </div>
+            </div>
+            
+        </section> <!-- end s-contact -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/warp.js"></script>
+
+</body>
+</html>

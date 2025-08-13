@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <ellipse cx="600" cy="420" rx="220" ry="160" stroke="#22d3ee" stroke-width="10" fill="none"/>
+  <path d="M600 260v320M420 420h360" stroke="#22d3ee" stroke-width="10"/>
+  <text x="420" y="640" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="32">Brain MRI Classifier</text>
+</svg>

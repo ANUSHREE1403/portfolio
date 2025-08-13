@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <path d="M260 560h680l-40 80H300l-40-80z" fill="url(#g)" opacity=".25"/>
+  <rect x="340" y="280" width="520" height="280" rx="12" stroke="#22d3ee"/>
+  <rect x="380" y="320" width="180" height="140" fill="#113244"/>
+  <rect x="600" y="320" width="220" height="140" fill="#113244"/>
+  <text x="360" y="540" fill="#9cc7d6" font-family="Orbitron, monospace" font-size="32">Shopper's Spectrum</text>
+</svg>

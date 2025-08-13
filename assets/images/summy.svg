@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0b1120"/>
+  <text x="80" y="120" fill="#22d3ee" font-family="Orbitron, monospace" font-size="48">Text Summarizer</text>
+  <rect x="80" y="180" width="1040" height="440" rx="16" stroke="#22d3ee" opacity=".4"/>
+  <rect x="110" y="220" width="980" height="24" rx="6" fill="#113244"/>
+  <rect x="110" y="260" width="640" height="24" rx="6" fill="#113244"/>
+  <rect x="110" y="300" width="720" height="24" rx="6" fill="#113244"/>
+  <rect x="110" y="340" width="900" height="24" rx="6" fill="#113244"/>
+  <rect x="110" y="420" width="520" height="18" rx="5" fill="#22d3ee"/>
+  <text x="110" y="470" fill="#9cc7d6" font-family="Rajdhani, sans-serif" font-size="22">Condensed insights, crisp output.</text>
+</svg>
